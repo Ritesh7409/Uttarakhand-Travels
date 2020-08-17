@@ -1,0 +1,136 @@
+<!-- <ul *ngFor="let val of des">
+  <li> {des.des_place}}</li>
+</ul>  -->
+<div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar py-1" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">Travelers</a></h1>
+          </div>
+          <div class="col-10 col-md-8 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li class="active">
+                  <a routerLink="/">Home</a>
+                </li>
+                <li class="has-children">
+                  <a href="" >Destinations</a>
+                  <ul class="dropdown">
+                     <li><a  routerLink="home/hill">Hill Stations</a></li>
+                     
+                     <li><a routerLink="home/wild-station">Wildlife</a></li>
+                     <li><a routerLink="home/Trekking">trekking</a></li>
+                     <li><a routerLink="home/Pilgrimage">Pilgrimage</a></li>
+                    <!-- <li><a href="#">Ali Bedni Bugyal</a></li>
+                    <li><a href="#">Auli</a></li> -->
+                    <!-- <li><a href="#">Almora</a></li>
+                    <li><a href="#">Badrinath</a></li>
+                    <li><a href="#">Bhimtal</a></li>
+                    <li><a href="#">Bageshwar</a></li>
+                    <li><a href="#">Bagini Glacier</a></li>
+                    <li><a href="#">Bhowali</a></li>
+                    <li><a href="#">Berinag</a></li>
+                    <li><a href="#">Brahmatal</a></li>
+                    <li><a href="#">Chamba</a></li>
+                    <li><a href="#">Champawat</a></li>
+                    <li><a href="#">Chamoli</a></li>
+                    <li><a href="#">Chandrashila Trek</a></li>
+                    <li><a href="#">Corbett National Park</a></li>
+                    <li><a href="#">Dayara Bugyal</a></li>
+                    <li><a href="#">Dehradun</a></li>
+                    <li><a href="#">Devprayag</a></li>
+                    <li><a href="#">Dhanaulti</a></li>
+                    <li><a href="#">Gangotri</a></li>
+                    <li><a href="#">Gaumukh Trek</a></li>
+                    <li><a href="#">Gaurikund</a></li>
+                    <li><a href="#">Haldwani</a></li>
+                    <li><a href="#">Haridwar</a></li>
+                    <li><a href="#">Hemkund Sahib</a></li>
+                    <li><a href="#">Jageshwar</a></li>
+                    <li><a href="#">Joshimath</a></li>
+                    <li><a href="#">Kalpeshwar</a></li>
+                    <li><a href="#">Karnaprayag</a></li>
+                    <li><a href="#">Kausani</a></li>
+                    <li><a href="#">Kedarnath</a></li>
+                    <li><a href="#">Kotdwar</a></li>
+                    <li><a href="#">Lansdowne</a></li>
+                    <li><a href="#">Lohaghat</a></li>
+                    <li><a href="#">Mandani Valley</a></li>
+                    <li><a href="#">Mukteshwar</a></li>
+                    <li><a href="#">Munsiyari</a></li>
+                    <li><a href="#">Mussoorie</a></li>
+                    <li><a href="#">Nainital</a></li>
+                    <li><a href="#">Nanakmatta</a></li>
+                    <li><a href="#">Nanda Devi National Park</a></li>
+                    <li><a href="#">Nelong Valley</a></li>
+                    <li><a href="#">New Tehri</a></li>
+                    <li><a href="#">Pantnagar</a></li>
+                    <li><a href="#">Patal Bhuvaneshwar</a></li>
+                    <li><a href="#">Pauri</a></li>
+                    <li><a href="#">Pindari Glacier</a></li>
+                    <li><a href="#">Pithoragarh</a></li>
+                    <li><a href="#">Ramnagar</a></li>
+                    <li><a href="#">Ranikhet</a></li>
+                    <li><a href="#">Rishikesh</a></li>
+                    <li><a href="#">Rudraprayag</a></li>
+                    <li><a href="#">Srinagar</a></li>
+                    <li><a href="#">Tanakpur</a></li>
+                    <li><a href="#">Tungnath</a></li>
+                    <li><a href="#">Uttarkashi</a></li>
+                    <li><a href="#">Yamunotri</a></li>  -->
+                    
+                  </ul>
+                </li>
+                
+                <!-- <li><a href="discount.html">Discount</a></li> -->
+                <li><a href="" routerLink="/about">About</a></li>
+                <li><a href="" routerLink="/blog">Blog</a></li>
+                
+                <li><a routerLink="/contact">Contact</a></li>
+                <!-- <li><a href="booking.html">Book Online</a></li> -->
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-xl-2 text-right">
+            <div class="d-none d-xl-inline-block">
+              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+                <li>
+                  <a href="https://www.tripadvisor.in/" class="pl-0 pr-3 text-black"><span class="icon-tripadvisor"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/" class="pl-3 pr-3 text-black"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3 text-black"><span class="icon-instagram"></span></a>
+                </li>
+                
+              </ul>
+            </div>
+
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </header>
+    </div>
